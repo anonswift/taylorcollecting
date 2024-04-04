@@ -40,6 +40,64 @@ header {
   to {opacity: 1;}
 }
 
+.note {
+  background-color: grey;
+  border: none;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  margin: 10px 1px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.signed {
+  background-color: green;
+  border: none;
+  color: white;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  margin: 10px 1px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.barcode {
+  background-color: white;
+  border: grey;
+  border-style: solid;
+  border-width: 2px;
+  color: grey;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 15px 1px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.incl {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 15px 1px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
 .button {
   background-color: #04AA6D; /* Green */
   border: none;
@@ -57,13 +115,15 @@ header {
 .lookforcd {
   background-color: #f6ed95;
   color: black;
-  border: none;
+  border: grey;
+  border-style: solid;
+  border-width: 2px;
   padding: 15px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin: 12px 3px;
-  border-radius: 18px;
+  border-radius: 25px;
   font-family: monospace;
   transition-duration: 0.19999s;
 }
@@ -89,7 +149,9 @@ div.scrollmenu a {
 .lfcfive {
   background-color: #d6e9ff;
   color: blue;
-  border: none;
+  border: grey;
+  border-style: solid;
+  border-width: 2px;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -124,7 +186,7 @@ div.scrollmenu a {
 }
 
   .item {
-  border: 1px grey solid;
+  border: 1.5px grey solid;
   border-radius: 20px;
   max-width: 280px;
   max-height: 900px;
@@ -342,6 +404,27 @@ div.scrollmenu a {
 
   .ttpd:hover {
     background-color: grey;
+    color: white;
+  }
+
+  .stf {
+    background-color: #d6e9ff;
+    border: none;
+    display: block;
+    align-self: center;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 4px 3px;
+    border-radius: 18px;
+    font-family: monospace;
+    transition-duration: 0.2s;
+  }
+
+  .stf:hover {
+    background-color: #d2bc88;
     color: white;
   }
   
