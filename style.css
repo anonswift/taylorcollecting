@@ -467,3 +467,18 @@ div.scrollmenu a {
     color: white;
   }
   
+  :root {
+    --glow-rgb: 220 237 236;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .glow-point {
+    position: absolute;
+    box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(var(--glow-rgb));
+    pointer-events: none;
+  }
