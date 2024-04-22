@@ -1,3 +1,8 @@
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
 let start = new Date().getTime();
 
 const originPosition = { x: 0, y: 0 };
